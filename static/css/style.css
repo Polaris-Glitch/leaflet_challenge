@@ -1,0 +1,36 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+#map {
+  height: 100vh; /* Full viewport height */
+}
+
+.legend {
+  position: fixed; /* Fixed position relative to the viewport */
+  bottom: 10px;    /* Distance from the bottom */
+  left: 10px;      /* Distance from the left */
+  background-color: white; /* Background color */
+  padding: 10px;  /* Padding around content */
+  border-radius: 5px; /* Rounded corners */
+  border: 1px solid #ccc; /* Border color and style */
+  z-index: 1000;  /* Ensure it's above other elements */
+}
+
+.legend div {
+  margin-bottom: 5px; /* Spacing between legend items */
+}
+
+.legend span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earthquake Map</title>
+    <link rel="stylesheet" href="static/css/style.css"> <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+</head>
+<body>
+    <div id="map"></div>
+    <div class="legend" id="legend">
+        <h4>Depth Legend</h4>
+        <div><span style="background-color: #ff0000;">&nbsp;&nbsp;&nbsp;</span> 0-10 km</div>
+        <div><span style="background-color: #ff7f00;">&nbsp;&nbsp;&nbsp;</span> 10-50 km</div>
+        <div><span style="background-color: #ffff00;">&nbsp;&nbsp;&nbsp;</span> 50-100 km</div>
+        <div><span style="background-color: #7fff00;">&nbsp;&nbsp;&nbsp;</span> 100-300 km</div>
+        <div><span style="background-color: #00ff00;">&nbsp;&nbsp;&nbsp;</span> >300 km</div>
+    </div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="static/js/logic.js"></script> <!-- Link to your external JavaScript file -->
+</body>
+</html>
